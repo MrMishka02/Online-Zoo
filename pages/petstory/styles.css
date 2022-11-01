@@ -255,6 +255,10 @@ header{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
+.card_img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
 .text_icon{
     display: flex;
     justify-content: space-between;
@@ -484,6 +488,10 @@ header{
     height: 391px;
     background: #F1F3F2;
     border-radius: 20px;
+    background: linear-gradient(#f8f9fa, #f8f9fa) padding-box,
+    linear-gradient(to right, #f3a1ff, #fed290) border-box;
+    border-radius: 10px;
+    border: 2px solid transparent;
 }
 .username{
     display: flex;
@@ -529,6 +537,7 @@ header{
     width: 237px;
     height: 309px;
     margin-left: 16px;
+    margin-top: 5%;
 }
 .line{
     width: 599px;
@@ -538,9 +547,6 @@ header{
     background: #F5F7F6;
     border-radius: 5px;
     margin-top: 20px;
-    border: 1px solid;
-    border-image: linear-gradient(20deg, #f92056 38%, #00deff 65%);
-    border-image-slice: 1;
 }
 .scroll{
     width: 115.19px;
@@ -580,7 +586,7 @@ header{
     height: auto;
     position: absolute;
     top: 37%;
-    left: 85.6%;
+    left: 84.9%;
 }
 footer{
     width: 100%;

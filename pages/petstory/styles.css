@@ -7,6 +7,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     max-width: 1600px;
+    width: 100%;
 }
 header{
     width: 100%;
@@ -386,9 +387,10 @@ header{
     line-height: 130%;
     color: #333B41;
 }
-.covid span{
+.covid a{
     text-decoration: underline;
     text-decoration-color: #F9804B;
+    color: #333B41;
 }
 .peek-h2{
     position: absolute;
@@ -448,6 +450,10 @@ header{
 }
 .btn_3:hover{
     cursor: pointer;
+}
+.btn_3 a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 .section5{
     width: 100%;
@@ -581,6 +587,9 @@ header{
     text-transform: uppercase;
     color: #FFFFFF;
 }
+.btn_4:hover{
+    cursor: pointer;
+}
 .leave{
     width: 380px;
     height: auto;
@@ -618,6 +627,9 @@ footer{
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+.btn_5:hover{
+    cursor: pointer;
 }
 .social{
     width: 120px;
@@ -728,6 +740,7 @@ input{
     border-radius: 2px;
     border: 1px solid #F9804B;
     background: transparent;
+    padding-left: 0.5%;
 }
 .btn_6{
     width: 129px;
@@ -743,6 +756,9 @@ input{
     color: #4B9200;
     border: 1px solid #4B9200;
     border-radius: 5px;
+}
+.btn_6:hover{
+    cursor: pointer;
 }
 .designed{
     width: 240px;

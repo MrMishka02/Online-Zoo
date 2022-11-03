@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 body {
-    max-width: 1600px;
     margin: auto;
+    width: 1600px;
 }
 header{
     width: 100%;
@@ -78,7 +78,7 @@ header{
     height: 780px;
     position: relative;
     background-image: url(../../assets/images/Giant-Panda.png);
-    background-size: contain;
+    background-size: cover;
 }
 .circle-h1-btn{
     width: 700px;
@@ -303,20 +303,19 @@ header{
 }
 .section4{
     width: 100%;
-    height: 400px;
-    margin-top: -15%;
+    height: 500px;
+    margin-top: -17.5%;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     overflow: hidden;
 }
 .flower2{
-    width: 260px;
-    margin-left: -2%;
+    width: 290px;
 }
 .btn_2{
-    margin-left: 4%;
-    margin-bottom: 5%;
+    margin-left: 4.8%;
+    margin-bottom: 6.2%;
     width: 298px;
     height: 54px;
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
@@ -335,7 +334,7 @@ header{
     cursor: pointer;
 }
 .flower3{
-    width: 300px;
+    width: 365px;
 }
 .peek{
     width: 100%;
@@ -349,6 +348,7 @@ header{
 .feed{
     width: 1160px;
     height: 835px;
+    margin-top: -1.7%;
     background: rgba(253, 253, 255, 0.52);
     backdrop-filter: blur(2px);
     border-radius: 20px;
@@ -416,8 +416,10 @@ header{
 }
 .pay{
     position: absolute;
+    width: 765px;
     top: 418px;
     display: flex;
+    justify-content: space-between;
 }
 .pay1{
     width: 168px;
@@ -437,11 +439,13 @@ header{
     font-size: 16px;
     line-height: 140%;
     color: #333B41;
+    margin-top: 15%;
 }
 .arrow{
-    width: 69px;
-    height: 45px;
-    margin-top: 10%;
+    width: 100px;
+    height: 75px;
+    margin-top: 5.4%;
+    margin-left: 1%;
 }
 .btn_3{
     position: absolute;
@@ -483,7 +487,7 @@ header{
 }
 .feedback h3{
     position: absolute;
-    top: 102px;
+    top: 24.5%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -495,7 +499,7 @@ header{
 .users{
     width: 100%;
     position: absolute;
-    top: 192px;
+    top: 41%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -561,7 +565,7 @@ header{
     width: 599px;
     height: 8px;
     position: absolute;
-    top: 590px;
+    top: 109%;
     background: #F5F7F6;
     border-radius: 5px;
     margin-top: 20px;
@@ -583,8 +587,8 @@ header{
 }
 .btn_4{
     position: absolute;
-    top: 98px;
-    left: 12%;
+    top: 28%;
+    left: 13.8%;
     width: 298px;
     height: 54px;
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
@@ -603,17 +607,18 @@ header{
     cursor: pointer;
 }
 .leave{
-    width: 380px;
+    width: 250px;
     height: auto;
     position: absolute;
-    top: 37%;
-    left: 84.9%;
+    top: 17.4%;
+    left: 83.9%;
 }
 footer{
     width: 100%;
     height: 443px;
     background: #111115;
     position: relative;
+    margin-top: -3.5%;
 }
 .foot_logo{
     width: 82px;

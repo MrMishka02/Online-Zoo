@@ -73,3 +73,193 @@ header{
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+.section1{
+    width: 100%;
+    height: 1482px;
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+footer{
+    width: 100%;
+    height: 443px;
+    background: #111115;
+    position: relative;
+    margin-top: -3.5%;
+}
+.foot_logo{
+    width: 82px;
+    height: 52px;
+    position: absolute;
+    left: 220px;
+    top: 41px;
+}
+.btn_5{
+    width: 298px;
+    height: 54px;
+    position: absolute;
+    left: 220px;
+    top: 161px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 5px;
+    border: none;
+}
+.btn_5 a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.btn_5:hover{
+    cursor: pointer;
+}
+.social{
+    width: 120px;
+    height: 150px;
+    position: absolute;
+    left: 220px;
+    top: 259px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.social a{
+    height: 26px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.facebook{
+    width: 111px;
+    height: 26px;
+}
+.twitter{
+    width: 89px;
+    height: 26px;
+}
+.instagram{
+    width: 110px;
+    height: 26px;
+}
+.youtube{
+    width: 101px;
+    height: 26px;
+}
+.foot-nav{
+    width: 360px;
+    height: 40px;
+    position: absolute;
+    left: 619px;
+    top: 365px;
+    display: flex;
+    align-items: center;
+}
+.foot-ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+.foot-ul li{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.foot-about{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.foot-others{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.foot-others:hover{
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.subscribe{
+    width: 237px;
+    height: 29px;
+    position: absolute;
+    left: 1013px;
+    top: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+input{
+    width: 220px;
+    height: 42px;
+    position: absolute;
+    left: 1013px;
+    top: 83px;
+    border-radius: 2px;
+    border: 1px solid #F9804B;
+    background: transparent;
+    padding-left: 0.5%;
+}
+input::placeholder{
+    color: #ffffff;
+  }
+.btn_6{
+    width: 129px;
+    height: 42px;
+    position: absolute;
+    left: 1251px;
+    top: 83px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #4B9200;
+    border: 1px solid #4B9200;
+    border-radius: 5px;
+}
+.btn_6:hover{
+    cursor: pointer;
+}
+.designed{
+    width: 240px;
+    height: 21px;
+    position: absolute;
+    left: 1152px;
+    top: 341px;
+}
+.designed p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 130%;
+    color: #BDBDBD;
+}

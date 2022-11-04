@@ -20,7 +20,30 @@ header{
     width: 82px;
     height: 52px;
     margin-left: 220px;
-    margin-top: 3px;
+    margin-top: 0px;
+    text-decoration: none;
+    border: 1.18841px solid #FFFFFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin: 0;
+}
+.logo img{
+    position: absolute;
+    width: 12px;
+    margin-top: 1%;
+    margin-left: 0.6%;
+}
+.logo a{
+    text-decoration: none;
 }
 .mynav{
     width: 70%;

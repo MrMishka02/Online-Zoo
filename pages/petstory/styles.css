@@ -157,13 +157,14 @@ header{
     display: flex;
     flex-direction: column;
 }
-.backstage h2{
+.backstage h1{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
     line-height: 120%;
     color: #333B41;
+    margin: 0;
 }
 .backstage h3{
     width: 465px;
@@ -267,10 +268,44 @@ header{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-.card_img:hover{
-    transform: scale(1.1);
-    transition: 1.5s;
-    border-radius: 5px;
+.card:hover{
+    overflow: hidden !important;
+}
+.card:hover .card_img{
+    transform: scale(1.35);
+    transition: 1s;
+    position: relative;
+    opacity: 0.75;
+    filter: blur(1px);
+    filter: brightness(20%);
+}
+.card:hover .text_icon{
+    position: relative;
+    transform: translateY(-170px);
+    transition: 1s;
+}
+.card:hover .text_icon h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: white;
+    margin: 5px 0 0 16px;
+}
+.card:hover .text_icon p{
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 120%;
+    color: white;
+    margin-left: 16px;
+}
+.card:hover .banana_meet{
+    display: none;
 }
 .text_icon{
     display: flex;
@@ -569,6 +604,7 @@ header{
     background: #F5F7F6;
     border-radius: 5px;
     margin-top: 20px;
+    border: 1px solid #F9804B;
 }
 .scroll{
     width: 115.19px;
@@ -759,6 +795,9 @@ input{
     background: transparent;
     padding-left: 0.5%;
 }
+input::placeholder{
+    color: #ffffff;
+  }
 .btn_6{
     width: 129px;
     height: 42px;

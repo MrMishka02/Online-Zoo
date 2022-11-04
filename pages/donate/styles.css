@@ -148,6 +148,74 @@ header{
     line-height: 130%;
     color: #FE9013;
 }
+.peek{
+    position: relative;
+    width: 1160px;
+    height: 964px;
+    top: 9.8%;
+    left: 13.8%;
+    background: rgba(255, 255, 255, 0.52);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+}
+.sect2-h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: #FE9013;
+}
+.sect2-p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333B41;
+}
+.sect2-span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.sect2-p2{
+    position: relative;
+    top: 24.5%;
+    left: -16.7%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #333B41;
+}
+.x-icon{
+    width: 15px;
+}
+.don-panda{
+    width: 285px;
+}
+.sect2-span2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+}
+.line{
+    width: 976px;
+    height: 27px;
+    background: #404950;
+    border-radius: 2px;
+}
 footer{
     width: 100%;
     height: 443px;

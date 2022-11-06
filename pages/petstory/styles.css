@@ -155,6 +155,7 @@ header{
 }
 .btn_1:hover{
     cursor: pointer;
+    background: #E47209;
 }
 .section2{
     width: 100%;
@@ -390,6 +391,7 @@ header{
 }
 .btn_2:hover{
     cursor: pointer;
+    background: #E47209;
 }
 .flower3{
     width: 365px;
@@ -524,6 +526,7 @@ header{
 }
 .btn_3:hover{
     cursor: pointer;
+    background: #E47209;
 }
 .btn_3 a {
     text-decoration: none;
@@ -664,6 +667,7 @@ header{
 }
 .btn_4:hover{
     cursor: pointer;
+    background: #E47209;
 }
 .leave{
     width: 250px;
@@ -709,6 +713,7 @@ footer{
 }
 .btn_5:hover{
     cursor: pointer;
+    background: #E47209;
 }
 .social{
     width: 120px;
@@ -816,14 +821,15 @@ input{
     position: absolute;
     left: 1013px;
     top: 83px;
+    color: #BDBDBD;;
     border-radius: 2px;
     border: 1px solid #F9804B;
     background: transparent;
     padding-left: 0.5%;
 }
 input::placeholder{
-    color: #ffffff;
-  }
+    color: #BDBDBD;
+}
 .btn_6{
     width: 129px;
     height: 42px;

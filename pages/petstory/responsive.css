@@ -1,0 +1,222 @@
+@media screen and (max-width: 1000px){
+    body {
+        margin: auto;
+        max-width: 1000px;
+    }
+    header{
+        z-index: 9;
+    }
+    .logo{
+        width: 92px;
+        height: 52px;
+        margin-left: 30px;
+    }
+    .mynav{
+        width: 100%;
+    }
+    .lefthead{
+        width: 48.5%;
+        margin-left: 7.1%;
+    }
+    .righthead{
+        width: 22%;
+    }
+    .section1{
+        width: 100%;
+        height: 584px;
+        position: relative;
+        background-image: url(../../assets/images/Giant\ Panda\ small\ desktop.png);
+        background-size: cover;
+    }
+    .circle-h2-btn{
+        width: 500px;
+        height: 500px;
+    }
+    .circle{
+        width: 367px;
+        height: 367px;
+        margin-top: -1.6%;
+        margin-left: -8.6%;
+    }
+    .myh2{
+        width: 400.25px;
+        height: 320px;
+        margin-top: 8.5%;
+        margin-left: 2.9%;
+        font-size: 85px;
+    }
+    .btn_1{
+        margin-top: 9%;
+        margin-left: 13%;
+    }
+    .section2{
+        margin-top: 6%;
+    }
+    .bamboocap{
+        width: 696px;
+        height: 403px;
+        display: flex;
+    }
+    .bamboocap img{
+        width: 455px;
+        height: 408px;
+        margin-left: 37%;
+    }
+    .backstage{
+        width: 470px;
+        height: 403px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        left: 20%;
+        top: -2%
+    }
+    .flower1{
+        visibility: hidden;
+    }
+    .section3{
+        margin-top: 6%;
+    }
+    .cards{
+        width: 94%;
+        height: 800px;
+    }
+    .arrow1{
+        position: absolute;
+        left: 35.2%;
+    }
+    .arrow2{
+        position: absolute;
+        right: 35%;
+    }
+    .card{
+        width: 294px;
+        height: 354px;
+    }
+    .card_img{
+        width: 292px;
+        height: 294px;
+    }
+    .card:hover .card_img{
+        transform: scale(1.4);
+    }
+    .section4{
+        margin-top: -27.2%;
+    }
+    .flower2{
+        width: 150px;
+    }
+    .btn_2{
+        margin-left: 9.2%;
+        margin-bottom: 14.4%;
+    }
+    .flower3{
+        width: 245px;
+    }
+    .peek{
+        height: 870px;
+    }
+    .feed{
+        width: 940px;
+        height: 798px;
+    }
+    .feed-h2{
+        top: 30px;
+    }
+    .covid h3{
+        top: 13.5%;
+        left: 5.2%;
+    }
+    .covid h4{
+        width: 85%;
+        top: 156px;
+        left: 5.2%;
+    }
+    .covid p{
+        position: absolute;
+        top: 208px;
+        left: 5.2%;
+        width: 843px;
+    }
+    .peek-h2{
+        top: 290px;
+    }
+    .pay{
+        top: 375px;
+    }
+    .btn_3{
+        top: 690px;
+    }
+    .feedback h3{
+        top: 18%;
+    }
+    .users{
+        width: 94%;
+        height: 600px;
+        top: 31%;
+    }
+    .user{
+        width: 292px;
+    }
+    .user:last-child{
+        visibility: hidden;
+    }
+    .line{
+        width: 390px;
+        height: 7px;
+        top: 99%;
+        left: 30%;
+    }
+    .scroll{
+        width: 75px;
+        height: 6px;
+    }
+    .btn_4{
+        top: 19%;
+        left: 3%;
+    }
+    .btn_4:hover{
+        cursor: pointer;
+        background: #E47209;
+    }
+    .leave{
+        width: 195px;
+        top: 8%;
+        left: 80.5%;
+    }
+    footer{
+        margin-top: -13%;
+    }
+    .foot_logo{
+        left: 30px;
+        top: 40px;
+    }
+    .btn_5{
+        left: 30px;
+    }
+    .social{
+        left: 30px;
+    }
+    .foot-nav{
+        width: 332px;
+        left: 320px;
+        top: 362px;
+    }
+    .subscribe{
+        left: 570px;
+    }
+    input{
+        width: 228px;
+        left: 570px;
+    }
+    .btn_6{
+        width: 128px;
+        left: 810px;
+    }
+    .designed{
+        left: 740px;
+    }
+    .designed p{
+        margin-top: 1.5%;
+    }
+}

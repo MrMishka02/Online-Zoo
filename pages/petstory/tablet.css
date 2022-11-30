@@ -54,7 +54,6 @@
     }
     .section2{
         margin-top: 2%;
-        margin-left: 1.2%;
         overflow: hidden;
     }
     .bamboocap{
@@ -63,6 +62,7 @@
     .backstage{
         width: 495px;
         height: 403px;
+        left: 1.2%;
     }
     .backstage h3{
         padding-top: 10%;
@@ -75,10 +75,10 @@
         margin-top: 6%;
     }
     .flower1{
-        width: 220px;
+        width: 200px;
         height: 476px;
         position: relative;
-        left: 3.2%;
+        left: 4.5%;
         top: -5.8%;
     }
     .section3{
@@ -187,11 +187,9 @@
     }
     .pay{
         position: absolute;
-        width: 200px;
+        width: 82.5%;
         top: 348px;
-        left: 3%;
-        display: flex;
-        justify-content: space-between;
+        left: 20px;
     }
     .pay1{
         width: 108px;
@@ -203,7 +201,21 @@
         margin-top: 24%;
     }
     .arrow{
-        visibility: hidden;
+        display: none;
+        position: absolute;
+    }
+    .arrow_green{
+        display: block;
+        Width:  89px;
+        Height: 30px;
+        margin-top: -3%;
+        position: absolute;
+    }
+    .green1{
+        left: 26%;
+    }
+    .green2{
+        left: 65.5%;
     }
     .btn_3{
         top: 632px;
@@ -236,6 +248,7 @@
         overflow: hidden;
         width: 600px;
         height: 109px;
+        border-radius: 20px;
     }
     .username img{
         width: 37px;
@@ -304,10 +317,11 @@
         top: 98px;
     }
     .social{
-        width: 120px;
-        height: 180px;
-        left: 598px;
+        width: 30px;
+        height: 227px;
+        left: 594px;
         top: 14px;
+        overflow: hidden;
     }
     .foot-nav{
         width: 300px;

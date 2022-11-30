@@ -1,0 +1,356 @@
+@media (min-width: 320px) and (max-width: 639px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        margin: auto;
+        max-width: 320px;
+    }
+    header{
+        width: 100%;
+        height: 34px;
+        z-index: 9;
+    }
+    .logo{
+        width: 46.86px;
+        height: 29.03px;
+        margin-left: 10px;
+        margin-top: 2px;
+        border: none;
+    }
+    .logo h1{
+        font-size: 12.2899px;
+    }
+    .logo img{
+        width: 6px;
+        margin-left: 1.2%;
+    }
+    .mynav{
+        display: none;
+    }
+    .section1{
+        Width: 100%;
+        Height: 220px;
+        position: relative;
+        background-image: url(../../assets/images/Giant-Panda-mobile.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .circle-h2-btn{
+        width: 160px;
+        height: 160px;
+    }
+    .circle{
+        width: 119.09px;
+        height: 119.09px;
+        margin-top: 13%;
+        margin-left: 2%;
+    }
+    .myh2{
+        width: 128.13px;
+        height: 102.44px;
+        margin-top: 26%;
+        margin-left: 13%;
+        font-size: 28px;
+    }
+    .btn_1{
+        position: absolute;
+        width: 298px;
+        height: 54px;
+        margin-top: 206px;
+        margin-left: -148px;
+    }
+    .section2{
+        margin-top: 6.8%;
+        overflow: hidden;
+    }
+    .bamboocap{
+        display: none;
+    }
+    .backstage{
+        width: 300px;
+        height: 403px;
+        left: 20.2%;
+        top: 7.2%
+    }
+    .backstage h2{
+        font-size: 24px;
+    }
+    .backstage h3{
+        width: 320px;
+        height: 42px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        color: #333B41;
+        padding-top: 17%;
+        padding-left: 0.9%;
+    }
+    .backstage p{
+        width: 297px;
+        height: 42px;
+        padding-left: 0.6%;
+        padding-top: 3.4%;
+    }
+    .backstage-p{
+        width: 300px;
+        height: 198px;
+        margin-top: 9.5%;
+    }
+    .flower1{
+        width: 75px;
+        height: auto;
+        position: relative;
+        left: 13%;
+        top: -24%;
+    }
+    .section3{
+        margin-top: -12.98%;
+    }
+    .cards{
+        width: 94%;
+        height: 800px;
+    }
+    .arrow1{
+        display: none;
+    }
+    .arrow2{
+        display: none;
+    }
+    .card:last-child{
+        visibility: hidden;
+    }
+    .card:nth-last-child(2){
+        visibility: hidden;
+    }
+    .card{
+        width: 285px;
+        height: 332px;
+        margin-bottom: 18px;
+        margin-left: 2.1%;
+    }
+    .card_img{
+        width: 283px;
+        height: 294px;
+    }
+    .text_icon h3{
+        margin: -7px 0 0 10px;
+    }
+    .text_icon p{
+        font-size: 12px;
+        margin-left: 12px;
+    }
+    .banana_meet{
+        width: 38px;
+        padding-right: 8px;
+    }
+    .section4{
+        margin-top: 55%;
+    }
+    .flower2{
+        width: 50px;
+        position: relative;
+        left: 0%;
+        top: 1%;
+    }
+    .btn_2{
+        position: absolute;
+        margin-left: 3.2%;
+        margin-bottom: 19%;
+    }
+    .flower3{
+        position: relative;
+        width: 85px;
+        left: 5%;
+    }
+    .peek{
+        height: 1082px;
+    }
+    .feed{
+        width: 300px;
+        height: 1042px;
+        justify-content: center;
+    }
+    .feed-h2{
+        font-size: 24px;
+        top: 22px;
+    }
+    .covid h3{
+        font-size: 18px;
+        top: 6%;
+        left: 0%;
+        Width: 297px;
+        Height: 66px;
+        text-align: center;
+    }
+    .covid h4{
+        display: none;
+    }
+    .covid p{
+        display: none;
+    }
+    .peek-h2{
+        font-size: 24px;
+        top: 146px;
+    }
+    .pay{
+        width: 60%;
+        top: 195px;
+        left: 66px;
+        display: block;
+    }
+    .arrow{
+        display: none;
+    }
+    .arrow_green{
+        display: block;
+        Width:  89px;
+        Height: 30px;
+        margin-top: -29%;
+        position: absolute;
+        transform: rotate(86deg);
+    }
+    .green1{
+        left: 78%;
+    }
+    .green2{
+        top: 67%;
+        left: 78%;
+    }
+    .pay1:last-child{
+        margin-top: 2.8%;
+    }
+    .pay1 p{
+        margin-top: 3%;
+    }
+    .btn_3{
+        top: 950px;
+    }
+    .feedback h3{
+        top: 5%;
+        font-size: 24px;
+    }
+    .users{
+        width: 94%;
+        height: 374px;
+        top: 13.4%;
+    }
+    .user{
+        width: 299px;
+        height: 109px;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+    .user:last-child{
+        display: none;
+    }
+    .username img{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .location{
+        margin-left: 7px;
+    }
+    .location h4{
+        margin: 0;
+        margin-top: 10px;
+    }
+    .feedback-txt{
+        margin-left: 18px;
+        margin-top: 6.5%;
+        width: 279px;
+    }
+    .line{
+        display: none;
+    }
+    .btn_leave{
+        height: 156px;
+        margin-top: -35%;
+    }
+    .btn_4{
+        position: absolute;
+        width: 240px;
+        left: 12.6%;
+        top: 1%;
+    }
+    .leave{
+        width: 65px;
+        top: 27%;
+        left: 79.7%;
+    }
+    footer{
+        height: 334px;
+        margin-top: -13%;
+        overflow: hidden;
+    }
+    .foot_logo{
+        display: none;
+    }
+    .btn_5{
+        width: 298px;
+        top: 39%;
+        left: 8px;
+    }
+    .social{
+        width: 80%;
+        height: 40px;
+        top: 74px;
+        left: 31px;
+    }
+    .facebook{
+        display: none;
+    }
+    .twitter{
+        display: none;
+    }
+    .instagram{
+        display: none;
+    }
+    .youtube{
+        display: none;
+    }
+    .hidden_social{
+        display: block;
+        margin-left: 30px;
+    }
+    .foot-nav{
+        width: 278px;
+        left: 20px;
+        top: 285px;
+    }
+    .subscribe{
+        display: none;
+    }
+    input{
+        display: none;
+    }
+    .btn_6{
+        display: none;
+    }
+    .designed{
+        left: 95px;
+        top: 205px;
+    }
+    .designed p{
+        font-size: 15px;
+        margin-top: 4%;
+    }
+    .foot_logo_hidden{
+        display: block;
+        left: 28%;
+        top: 5.4%;
+    }
+}
+@media (max-width: 319px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        margin: auto;
+        width: 1600px;
+    }
+}

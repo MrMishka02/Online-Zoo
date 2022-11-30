@@ -5,7 +5,7 @@
 }
 body {
     margin: auto;
-    width: 1600px;
+    max-width: 1600px;
 }
 header{
     width: 100%;
@@ -489,6 +489,7 @@ header{
     background: #E47209;
 }
 .share{
+    width: 400px;
     position: relative;
     font-family: 'Roboto';
     font-style: normal;

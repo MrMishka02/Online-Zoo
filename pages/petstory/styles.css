@@ -675,7 +675,7 @@ header{
     height: auto;
     position: absolute;
     top: 17.4%;
-    left: 83.9%;
+    left: 84.4%;
 }
 footer{
     width: 100%;
@@ -863,4 +863,18 @@ input::placeholder{
     font-size: 16px;
     line-height: 130%;
     color: #BDBDBD;
+}
+.hidden_social{
+    width: 26px;
+    height: 26px;
+    display: none;
+}
+.foot_logo_hidden{
+    display: none;
+    width: 137px;
+    height: auto;
+    position: relative;
+}
+.arrow_green{
+    display: none;
 }

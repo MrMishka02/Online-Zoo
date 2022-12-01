@@ -4,8 +4,10 @@
     box-sizing: border-box;
 }
 body {
-    margin: auto;
+    padding: 0;
+    margin: 0;
     max-width: 1600px;
+    margin: auto;
 }
 
 header{
@@ -877,4 +879,921 @@ input::placeholder{
 }
 .arrow_green{
     display: none;
+}
+/* Small desktop */
+@media (min-width: 1000px) and (max-width: 1599px){
+    body {
+        max-width: 1000px;
+    }
+    header{
+        z-index: 9;
+    }
+    .logo{
+        width: 92px;
+        height: 52px;
+        margin-left: 30px;
+    }
+    .mynav{
+        width: 100%;
+    }
+    .lefthead{
+        width: 48.5%;
+        margin-left: 7.1%;
+    }
+    .righthead{
+        width: 22%;
+    }
+    .section1{
+        width: 100%;
+        height: 584px;
+        position: relative;
+        background-image: url(../../assets/images/Giant\ Panda\ small\ desktop.png);
+        background-size: cover;
+    }
+    .circle-h2-btn{
+        width: 500px;
+        height: 500px;
+    }
+    .circle{
+        width: 367px;
+        height: 367px;
+        margin-top: -1.6%;
+        margin-left: -8.6%;
+    }
+    .myh2{
+        width: 400.25px;
+        height: 320px;
+        margin-top: 8.5%;
+        margin-left: 2.9%;
+        font-size: 85px;
+    }
+    .btn_1{
+        margin-top: 9%;
+        margin-left: 13%;
+    }
+    .section2{
+        margin-top: 6%;
+    }
+    .bamboocap{
+        width: 696px;
+        height: 403px;
+        display: flex;
+    }
+    .bamboocap img{
+        width: 455px;
+        height: 408px;
+        margin-left: 37%;
+    }
+    .backstage{
+        width: 470px;
+        height: 403px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        left: 20%;
+        top: -2%
+    }
+    .flower1{
+        visibility: hidden;
+    }
+    .section3{
+        margin-top: 6%;
+    }
+    .cards{
+        width: 94%;
+        height: 800px;
+    }
+    .arrow1{
+        position: absolute;
+        left: 35.2%;
+    }
+    .arrow2{
+        position: absolute;
+        right: 35%;
+    }
+    .card{
+        width: 294px;
+        height: 354px;
+    }
+    .card_img{
+        width: 292px;
+        height: 294px;
+    }
+    .card:hover .card_img{
+        transform: scale(1.4);
+    }
+    .section4{
+        margin-top: -27.2%;
+    }
+    .flower2{
+        width: 150px;
+    }
+    .btn_2{
+        margin-left: 9.2%;
+        margin-bottom: 14.4%;
+    }
+    .flower3{
+        width: 245px;
+    }
+    .peek{
+        height: 870px;
+    }
+    .feed{
+        width: 940px;
+        height: 798px;
+    }
+    .feed-h2{
+        top: 30px;
+    }
+    .covid h3{
+        top: 13.5%;
+        left: 5.2%;
+    }
+    .covid h4{
+        width: 85%;
+        top: 156px;
+        left: 5.2%;
+    }
+    .covid p{
+        position: absolute;
+        top: 208px;
+        left: 5.2%;
+        width: 843px;
+    }
+    .peek-h2{
+        top: 290px;
+    }
+    .pay{
+        top: 375px;
+    }
+    .btn_3{
+        top: 690px;
+    }
+    .feedback h3{
+        top: 18%;
+    }
+    .users{
+        width: 94%;
+        height: 600px;
+        top: 31%;
+    }
+    .user{
+        width: 292px;
+    }
+    .user:last-child{
+        visibility: hidden;
+    }
+    .line{
+        width: 390px;
+        height: 7px;
+        top: 99%;
+        left: 30%;
+    }
+    .scroll{
+        width: 75px;
+        height: 6px;
+    }
+    .btn_4{
+        top: 19%;
+        left: 3%;
+    }
+    .btn_4:hover{
+        cursor: pointer;
+        background: #E47209;
+    }
+    .leave{
+        width: 195px;
+        top: 8%;
+        left: 80.5%;
+    }
+    footer{
+        margin-top: -13%;
+    }
+    .foot_logo{
+        left: 30px;
+        top: 40px;
+    }
+    .btn_5{
+        left: 30px;
+    }
+    .social{
+        left: 30px;
+    }
+    .foot-nav{
+        width: 332px;
+        left: 320px;
+        top: 362px;
+    }
+    .subscribe{
+        left: 570px;
+    }
+    input{
+        width: 228px;
+        left: 570px;
+    }
+    .btn_6{
+        width: 128px;
+        left: 810px;
+    }
+    .designed{
+        left: 740px;
+    }
+    .designed p{
+        margin-top: 1.5%;
+    }
+}
+/* Tablet mode */
+@media (min-width: 640px) and (max-width: 999px){
+    body{
+        max-width: 640px;
+    }
+    header{
+        height: 34px;
+    }
+    .logo{
+        width: 46.86px;
+        height: 29.03px;
+        margin-left: 20px;
+        border: none;
+    }
+    .logo h1{
+        font-size: 12.2899px;
+    }
+    .logo img{
+        width: 7px;
+        margin-left: 0.5%;
+    }
+    .mynav{
+        visibility: hidden;
+    }
+    .section1{
+        height: 373px;
+        background-image: url(../../assets/images/Giant-Panda-tablet.png);
+    }
+    .circle-h2-btn{
+        width: 320px;
+        height: 320px;
+    }
+    .circle{
+        width: 237.6px;
+        height: 237.6px;
+        margin-top: 3.4%;
+        margin-left: 4%;
+    }
+    .myh2{
+        width: 255.64px;
+        height: 204.38px;
+        margin-top: 15.5%;
+        margin-left: 14.3%;
+        font-size: 54.2894px;
+    }
+    .btn_1{
+        margin-top: -0.7%;
+        margin-left: -93%;
+    }
+    .section2{
+        margin-top: 2%;
+        overflow: hidden;
+    }
+    .bamboocap{
+        visibility: hidden;
+    }
+    .backstage{
+        width: 495px;
+        height: 403px;
+        left: 1.2%;
+    }
+    .backstage h3{
+        padding-top: 10%;
+    }
+    .backstage p{
+        margin-left: -0.8%;
+        margin-top: -0.2;
+    }
+    .backstage-p{
+        margin-top: 6%;
+    }
+    .flower1{
+        width: 200px;
+        height: 476px;
+        position: relative;
+        left: 4.5%;
+        top: -5.8%;
+    }
+    .section3{
+        width: 100%;
+        height: 900px;
+        margin-top: -12.5%;
+        margin-left: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .cards{
+        width: 94%;
+        height: 750px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: space-between;
+    }
+    .arrow1{
+        margin-right: 14%;
+        position: absolute;
+    }
+    .arrow2{
+        margin-left: 14%;
+        position: absolute;
+    }
+    .card{
+        width: 285px;
+        height: 332px;
+        margin-bottom: 15%;
+    }
+    .card:last-child{
+        visibility: hidden;
+    }
+    .card:nth-last-child(2){
+        visibility: hidden;
+    }
+    .card_img{
+        width: 283px;
+        height: 285px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .text_icon h3{
+        font-weight: 500;
+        font-size: 13px;
+        margin: -2px 0 0 10px;
+    }
+    .text_icon p{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .banana_meet{
+        width: 45px;
+        padding-right: 8px;
+    }
+    .section4{
+        width: 100%;
+        height: 500px;
+        margin-top: -55.5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        overflow: hidden;
+    }
+    .flower2{
+        width: 130px;
+    }
+    .btn_2{
+        margin-left: 5.6%;
+        margin-bottom: 16%;
+    }
+    .flower3{
+        width: 165px;
+    }
+    .peek{
+        height: 781px;
+    }
+    .feed{
+        width: 1160px;
+        height: 741px;
+    }
+    .feed-h2{
+        top: 14px;
+        font-size: 42px;
+    }
+    .covid h3{
+        top: 86px;
+        left: 20px;
+        font-size: 22px;
+    }
+    .covid h4{
+        width: 600px;
+        height: 42px;
+        top: 158px;
+        left: 0px;
+        font-weight: 500;
+    }
+    .covid p{
+        width: 600px;
+        top: 210px;
+    }
+    .peek-h2{
+        top: 282px;
+    }
+    .pay{
+        position: absolute;
+        width: 82.5%;
+        top: 348px;
+        left: 20px;
+    }
+    .pay1{
+        width: 108px;
+        height: 244px;
+        border-radius: 5px;
+    }
+    .pay1 p{
+        width: 170px;
+        margin-top: 24%;
+    }
+    .arrow{
+        display: none;
+        position: absolute;
+    }
+    .arrow_green{
+        display: block;
+        Width:  89px;
+        Height: 30px;
+        margin-top: -3%;
+        position: absolute;
+    }
+    .green1{
+        left: 26%;
+    }
+    .green2{
+        left: 65.5%;
+    }
+    .btn_3{
+        top: 632px;
+    }
+    .section5{
+        width: 100%;
+        height: 510px;
+    }
+    .feedback{
+        width: 100%;
+        height: 575px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .feedback h3{
+        top: 10.5%;
+        left: 33.7%;
+    }
+    .users{
+        width: 95%;
+        height: 500px;
+        top: 23.8%;
+        left: 2.9%;
+    }
+    .user:last-child{
+        visibility: hidden;
+    }
+    .user{
+        overflow: hidden;
+        width: 600px;
+        height: 109px;
+        border-radius: 20px;
+    }
+    .username img{
+        width: 37px;
+        height: 37px;
+        margin-top: 13px;
+        margin-left: 12px;
+    }
+    .location{
+        width: 180px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 5px;
+    }
+    .location h4{
+        margin-top: 13px;
+        margin-left: 4px;
+    }
+    .location p {
+        margin-left: 2px;
+    }
+    .feedback-txt{
+        width: 570px;
+        margin-left: 16px;
+        margin-top: 2.5%;
+    }
+    .line{
+        visibility: hidden;
+    }
+    .btn_leave{
+        width: 100%;
+        height: 200px;
+    }
+    .btn_4{
+        top: 11.5%;
+        left: 31.2%;
+        width: 240px;
+    }
+    .btn_4:hover{
+        cursor: pointer;
+        background: #E47209;
+    }
+    .leave{
+        width: 130px;
+        height: auto;
+        position: absolute;
+        top: 10%;
+        left: 81%;
+    }
+    footer{
+        width: 100%;
+        height: 282px;
+        background: #111115;
+        position: relative;
+        margin-top: -6.6%;
+    }
+    .foot_logo{
+        width: 84px;
+        height: 54px;
+        left: 20px;
+        top: 12px;
+    }
+    .btn_5{
+        width: 298px;
+        height: 54px;
+        left: 20px;
+        top: 98px;
+    }
+    .social{
+        width: 30px;
+        height: 227px;
+        left: 594px;
+        top: 14px;
+        overflow: hidden;
+    }
+    .foot-nav{
+        width: 300px;
+        left: 20px;
+        top: 238px;
+    }
+    .subscribe{
+        display: none;
+    }
+    input{
+        display: none;
+    }
+    .btn_6{
+        display: none;
+    }
+    .designed{
+        width: 240px;
+        height: 21px;
+        left: 392px;
+        top: 212px;
+    }
+    .designed p{
+        margin-top: 8px;
+    }
+}
+/* Mobile mode */
+@media (min-width: 320px) and (max-width: 639px) {
+    body {
+        max-width: 320px;
+    }
+    header{
+        width: 100%;
+        height: 34px;
+        z-index: 9;
+    }
+    .logo{
+        width: 46.86px;
+        height: 29.03px;
+        margin-left: 10px;
+        margin-top: 2px;
+        border: none;
+    }
+    .logo h1{
+        font-size: 12.2899px;
+    }
+    .logo img{
+        width: 6px;
+        margin-left: 1.2%;
+    }
+    .mynav{
+        display: none;
+    }
+    .section1{
+        Width: 100%;
+        Height: 220px;
+        position: relative;
+        background-image: url(../../assets/images/Giant-Panda-mobile.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .circle-h2-btn{
+        width: 160px;
+        height: 160px;
+    }
+    .circle{
+        width: 119.09px;
+        height: 119.09px;
+        margin-top: 13%;
+        margin-left: 2%;
+    }
+    .myh2{
+        width: 128.13px;
+        height: 102.44px;
+        margin-top: 26%;
+        margin-left: 13%;
+        font-size: 28px;
+    }
+    .btn_1{
+        position: absolute;
+        width: 298px;
+        height: 54px;
+        margin-top: 206px;
+        margin-left: -148px;
+    }
+    .section2{
+        margin-top: 6.8%;
+        overflow: hidden;
+    }
+    .bamboocap{
+        display: none;
+    }
+    .backstage{
+        width: 300px;
+        height: 403px;
+        left: 20.2%;
+        top: 7.2%
+    }
+    .backstage h2{
+        font-size: 24px;
+    }
+    .backstage h3{
+        width: 320px;
+        height: 42px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        color: #333B41;
+        padding-top: 17%;
+        padding-left: 0.9%;
+    }
+    .backstage p{
+        width: 297px;
+        height: 42px;
+        padding-left: 0.6%;
+        padding-top: 3.4%;
+    }
+    .backstage-p{
+        width: 300px;
+        height: 198px;
+        margin-top: 9.5%;
+    }
+    .flower1{
+        width: 75px;
+        height: auto;
+        position: relative;
+        left: 13%;
+        top: -24%;
+    }
+    .section3{
+        margin-top: -12.98%;
+    }
+    .cards{
+        width: 94%;
+        height: 800px;
+    }
+    .arrow1{
+        display: none;
+    }
+    .arrow2{
+        display: none;
+    }
+    .card:last-child{
+        visibility: hidden;
+    }
+    .card:nth-last-child(2){
+        visibility: hidden;
+    }
+    .card{
+        width: 285px;
+        height: 332px;
+        margin-bottom: 18px;
+        margin-left: 2.1%;
+    }
+    .card_img{
+        width: 283px;
+        height: 294px;
+    }
+    .text_icon h3{
+        margin: -7px 0 0 10px;
+    }
+    .text_icon p{
+        font-size: 12px;
+        margin-left: 12px;
+    }
+    .banana_meet{
+        width: 38px;
+        padding-right: 8px;
+    }
+    .section4{
+        margin-top: 55%;
+    }
+    .flower2{
+        width: 50px;
+        position: relative;
+        left: 0%;
+        top: 1%;
+    }
+    .btn_2{
+        position: absolute;
+        margin-left: 3.2%;
+        margin-bottom: 19%;
+    }
+    .flower3{
+        position: relative;
+        width: 85px;
+        left: 5%;
+    }
+    .peek{
+        height: 1082px;
+    }
+    .feed{
+        width: 300px;
+        height: 1042px;
+        justify-content: center;
+    }
+    .feed-h2{
+        font-size: 24px;
+        top: 22px;
+    }
+    .covid h3{
+        font-size: 18px;
+        top: 6%;
+        left: 0%;
+        Width: 297px;
+        Height: 66px;
+        text-align: center;
+    }
+    .covid h4{
+        display: none;
+    }
+    .covid p{
+        display: none;
+    }
+    .peek-h2{
+        font-size: 24px;
+        top: 146px;
+    }
+    .pay{
+        width: 60%;
+        top: 195px;
+        left: 66px;
+        display: block;
+    }
+    .arrow{
+        display: none;
+    }
+    .arrow_green{
+        display: block;
+        Width:  89px;
+        Height: 30px;
+        margin-top: -29%;
+        position: absolute;
+        transform: rotate(86deg);
+    }
+    .green1{
+        left: 78%;
+    }
+    .green2{
+        top: 67%;
+        left: 78%;
+    }
+    .pay1:last-child{
+        margin-top: 2.8%;
+    }
+    .pay1 p{
+        margin-top: 3%;
+    }
+    .btn_3{
+        top: 950px;
+    }
+    .feedback h3{
+        top: 5%;
+        font-size: 24px;
+    }
+    .users{
+        width: 94%;
+        height: 374px;
+        top: 13.4%;
+    }
+    .user{
+        width: 299px;
+        height: 109px;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+    .user:last-child{
+        display: none;
+    }
+    .username img{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .location{
+        margin-left: 7px;
+    }
+    .location h4{
+        margin: 0;
+        margin-top: 10px;
+    }
+    .feedback-txt{
+        margin-left: 18px;
+        margin-top: 6.5%;
+        width: 279px;
+    }
+    .line{
+        display: none;
+    }
+    .btn_leave{
+        height: 156px;
+        margin-top: -35%;
+    }
+    .btn_4{
+        position: absolute;
+        width: 240px;
+        left: 12.6%;
+        top: 1%;
+    }
+    .leave{
+        width: 65px;
+        top: 27%;
+        left: 79.7%;
+    }
+    footer{
+        height: 334px;
+        margin-top: -13%;
+        overflow: hidden;
+    }
+    .foot_logo{
+        display: none;
+    }
+    .btn_5{
+        width: 298px;
+        top: 39%;
+        left: 8px;
+    }
+    .social{
+        width: 80%;
+        height: 40px;
+        top: 74px;
+        left: 31px;
+    }
+    .facebook{
+        display: none;
+    }
+    .twitter{
+        display: none;
+    }
+    .instagram{
+        display: none;
+    }
+    .youtube{
+        display: none;
+    }
+    .hidden_social{
+        display: block;
+        margin-left: 30px;
+    }
+    .foot-nav{
+        width: 278px;
+        left: 20px;
+        top: 285px;
+    }
+    .subscribe{
+        display: none;
+    }
+    input{
+        display: none;
+    }
+    .btn_6{
+        display: none;
+    }
+    .designed{
+        left: 95px;
+        top: 205px;
+    }
+    .designed p{
+        font-size: 15px;
+        margin-top: 4%;
+    }
+    .foot_logo_hidden{
+        display: block;
+        left: 28%;
+        top: 5.4%;
+    }
+}
+@media (max-width: 319px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        margin: auto;
+        width: 1600px;
+    }
 }

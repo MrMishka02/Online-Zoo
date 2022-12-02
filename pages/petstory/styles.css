@@ -161,11 +161,13 @@ header{
 }
 .section2{
     width: 100%;
-    height: 500px;
-    margin-top: 5.7%;
+    height: 640px;
+    margin-top: 1.4%;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+    position: relative;
 }
 .bamboo_text{
     display: flex;
@@ -231,15 +233,16 @@ header{
 }
 .flower1{
     position: absolute;
-    right: -0.8%;
-    width: 220px;
-    height: 655px;
+    right: -0.3%;
+    margin-top: -3.4%;
+    width: 214px;
+    height: 605px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .section3{
     width: 100%;
     height: 900px;
-    margin-top: 7.3%;
+    margin-top: 2.9%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -292,6 +295,7 @@ header{
     width: 366px;
     height: 426px;
     border-radius: 5px;
+    z-index: 10;
 }
 .card_img{
     width: 364px;
@@ -378,6 +382,7 @@ header{
 }
 .flower2{
     width: 290px;
+    z-index: 5;
 }
 .btn_2{
     margin-left: 4.8%;
@@ -885,7 +890,7 @@ input::placeholder{
     display: none;
 }
 /* Small desktop */
-@media (min-width: 1000px) and (max-width: 1280px){
+@media (min-width: 1000px) and (max-width: 1440px){
     body {
         max-width: 1000px;
     }
@@ -936,7 +941,7 @@ input::placeholder{
         margin-left: 13%;
     }
     .section2{
-        margin-top: 5.1%;
+        margin-top: -1.8%;
     }
     .bamboocap{
         width: 696px;
@@ -962,7 +967,7 @@ input::placeholder{
         visibility: hidden;
     }
     .section3{
-        margin-top: 6%;
+        margin-top: -0.4%;
     }
     .cards{
         width: 94%;
@@ -1157,7 +1162,7 @@ input::placeholder{
         margin-left: -93%;
     }
     .section2{
-        margin-top: 2%;
+        margin-top: -9.2%;
         overflow: hidden;
     }
     .bamboocap{
@@ -1183,12 +1188,12 @@ input::placeholder{
         height: 476px;
         position: relative;
         left: -51%;
-        top: -5.8%;
+        top: -2.2%;
     }
     .section3{
         width: 100%;
         height: 900px;
-        margin-top: -12.5%;
+        margin-top: -23.4%;
         margin-left: 0%;
         display: flex;
         align-items: center;
@@ -1455,7 +1460,7 @@ input::placeholder{
 @media (min-width: 320px) and (max-width: 639px) {
     body {
         max-width: 320px;
-    }
+        }
     header{
         width: 100%;
         height: 34px;
@@ -1511,8 +1516,7 @@ input::placeholder{
         margin-left: -148px;
     }
     .section2{
-        margin-top: 18%;
-        margin-left: -7%;
+        margin-top: -4%;
         overflow: hidden;
     }
     .bamboocap{
@@ -1521,8 +1525,8 @@ input::placeholder{
     .backstage{
         width: 300px;
         height: 403px;
-        left: 7.8%;
-        top: 22%
+        left: 12.5%;
+        top: 21.6%
     }
     .backstage h2{
         font-size: 24px;
@@ -1551,12 +1555,12 @@ input::placeholder{
     .flower1{
         width: 75px;
         height: auto;
-        position: absolute;
-        right: -13%;
-        top: 29%;
+        position: relative;
+        top: -23.8%;
+        left: 4.8%;
     }
     .section3{
-        margin-top: -24%;
+        margin-top: -46%;
     }
     .cards{
         width: 94%;
@@ -1792,8 +1796,9 @@ input::placeholder{
         top: 5.4%;
     }
 }
-@media (max-width: 319px){
+@media (max-width: 319.9px){
     body {
         min-width: 1600px;
+        overflow: visible;
     }
 }

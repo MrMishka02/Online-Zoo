@@ -1,1 +1,0 @@
-alert("Responsive design coming soon! Thank you!")

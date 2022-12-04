@@ -17,6 +17,7 @@ header{
     backdrop-filter: blur(2px);
     display: flex;
     align-items: center;
+    z-index: 99;
 }
 .logo{
     width: 82px;

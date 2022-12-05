@@ -1,4 +1,4 @@
-alert("Hello, I'm currently working on week 4!")
+alert("Hello, I'm currently working on week 4! Thank you!")
 
 const burgerBtn = document.getElementsByClassName("burger_icon")[0];
 burgerBtn.onclick = function burger(){

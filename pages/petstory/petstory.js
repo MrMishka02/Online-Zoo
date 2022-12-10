@@ -25,12 +25,22 @@ const prevBtn = document.getElementsByClassName("prev");
 const cards = document.querySelector(".cards");
 const slides = Array.from(cards.children);
 
+window.onload = function(){
+    for (let i = 0; i < slides.length; i++){
+        newArray = slides.slice().sort(() => Math.random() - 0.5);
+        for (j = 0; j < newArray.length; j++){
+            cards.append(newArray[j])
+        }
+    }
+}
 
 nextBtn[0].onclick = function(){
     for (let i = 0; i < slides.length; i++){
         newArray = slides.slice().sort(() => Math.random() - 0.5);
         for (j = 0; j < newArray.length; j++){
             cards.append(newArray[j]);
+            document.querySelector(".card").classList.remove("cardRight");
+            document.querySelector(".card").classList.add("cardLeft");
         }
     }
 }
@@ -40,6 +50,8 @@ prevBtn[0].onclick = function(){
         newArray = slides.slice().sort(() => Math.random() - 0.5);
         for (j = 0; j < newArray.length; j++){
             cards.append(newArray[j]);
+            document.querySelector(".card").classList.remove("cardLeft");
+            document.querySelector(".card").classList.add("cardRight");
         }
     }
 }

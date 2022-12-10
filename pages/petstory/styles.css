@@ -608,11 +608,11 @@ header{
     position: absolute;
     top: 41%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    overflow-x: hidden;
 }
 .user{
-    position: relative;
+    margin-right: 2.5%;
+    padding-right: 5%;
     width: 268px;
     height: 391px;
     background: #F1F3F2;
@@ -668,22 +668,34 @@ header{
     margin-left: 16px;
     margin-top: 5%;
 }
-.line{
-    width: 599px;
-    height: 8px;
-    position: absolute;
-    top: 109%;
-    background: #F5F7F6;
-    border-radius: 5px;
-    margin-top: 20px;
-    border: 1px solid #F9804B;
-}
+
 .scroll{
-    width: 115.19px;
-    height: 7px;
-    background: #FE9013;
+    position: relative;
+    left: 0;
+    margin-top: 48.5%;
+    appearance: none;
+    width: 600px;
+    height: 8px;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+    border: solid 1px transparent;
+    background: linear-gradient(#f1f3f2, #f1f3f2) padding-box, linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #e0d8f0 80.49%, #eaf7fe 127.9%, #eaf7fe 149.54%) border-box;
     border-radius: 5px;
+    z-index: 100;
 }
+.scroll:hover {
+    opacity: 1;
+  }
+  .scroll::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 105px;
+    height: 7px;
+    background: #E47209;
+    cursor: pointer;
+    border-radius: 5px;
+  }
 .btn_leave{
     width: 100%;
     height: 400px;
@@ -2006,3 +2018,36 @@ input::placeholder{
         overflow: visible;
     }
 }
+
+.cardLeft{
+    box-sizing: border-box;
+    border: 1px solid #F9804B;
+    width: 366px;
+    height: 426px;
+    border-radius: 5px;
+    z-index: 10;
+    position: relative;
+    animation-name: petsleft;
+    animation-duration: 1s;
+    transition: ease-in;
+}
+.cardRight{
+    box-sizing: border-box;
+    border: 1px solid #F9804B;
+    width: 366px;
+    height: 426px;
+    border-radius: 5px;
+    z-index: 10;
+    position: relative;
+    animation-name: petsright;
+    animation-duration: 1s;
+    transition: ease-in;
+}
+@keyframes petsleft{
+   0% {left: 100%;}
+   100% {left: 0;}
+}
+@keyframes petsright{
+    0% {right: 100%;}
+    100% {right: 0;}
+ }

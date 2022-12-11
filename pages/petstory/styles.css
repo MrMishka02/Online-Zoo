@@ -2052,10 +2052,10 @@ input::placeholder{
     transition: ease-in;
 }
 @keyframes petsleft{
-   0% {left: 20%;}
+   0% {left: 70%;}
    100% {left: 0;}
 }
 @keyframes petsright{
-    0% {right: 20%;}
+    0% {right: 70%;}
     100% {right: 0;}
  }

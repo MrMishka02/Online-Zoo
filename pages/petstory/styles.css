@@ -608,7 +608,7 @@ header{
     position: absolute;
     top: 41%;
     display: flex;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .user{
     margin-right: 2.5%;
@@ -1112,15 +1112,14 @@ input::placeholder{
     .user:last-child{
         visibility: hidden;
     }
-    .line{
-        width: 390px;
-        height: 7px;
-        top: 99%;
-        left: 30%;
-    }
     .scroll{
-        width: 75px;
+        width: 390px;
         height: 6px;
+        margin-top: 51%;
+        margin-left: -2.2%;
+    }
+    .scroll::-webkit-slider-thumb{
+        width: 75px;
     }
     .btn_4{
         top: 19%;
@@ -1478,18 +1477,18 @@ input::placeholder{
     }
     .users{
         width: 95%;
-        height: 500px;
+        height: 370px;
         top: 23.8%;
         left: 2.9%;
-    }
-    .user:last-child{
-        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
     }
     .user{
-        overflow: hidden;
         width: 600px;
-        height: 109px;
+        height: 300px;
         border-radius: 20px;
+        margin-bottom: 18px;
     }
     .username img{
         width: 37px;
@@ -1512,8 +1511,10 @@ input::placeholder{
     }
     .feedback-txt{
         width: 570px;
+        height: 39.5px;
         margin-left: 16px;
         margin-top: 2.5%;
+        overflow: hidden;
     }
     .line{
         visibility: hidden;
@@ -1894,14 +1895,21 @@ input::placeholder{
     }
     .users{
         width: 94%;
-        height: 374px;
+        height: 370px;
         top: 13.4%;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
     }
     .user{
         width: 299px;
         height: 109px;
-        overflow: hidden;
         border-radius: 20px;
+        margin-bottom: 15px;
+    }
+    .feedback-txt{
+        height: 40px;
+        overflow: hidden;
     }
     .user:last-child{
         display: none;
@@ -2044,10 +2052,10 @@ input::placeholder{
     transition: ease-in;
 }
 @keyframes petsleft{
-   0% {left: 100%;}
+   0% {left: 20%;}
    100% {left: 0;}
 }
 @keyframes petsright{
-    0% {right: 100%;}
+    0% {right: 20%;}
     100% {right: 0;}
  }

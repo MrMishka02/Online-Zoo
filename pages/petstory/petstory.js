@@ -9,15 +9,20 @@ burgerBtn.onclick = function burger(){
     const darked = document.createElement("div");
     darked.className = "darked";
     document.body.appendChild(darked);
+    darked.onclick = closeBurger;
 }
-const closeBtn = document.getElementsByClassName("cross")[0];
-closeBtn.onclick = function closeBurger(){
+
+function closeBurger() {
     const myNav = document.getElementById("mynav");
     myNav.classList.toggle("burgNav");
     document.getElementsByClassName("circle-h2-btn")[0].style.display = "flex";
     const darkBack = document.getElementsByClassName("darked")[0];
     document.body.removeChild(darkBack);
+    console.log("hi")
 }
+
+const closeBtn = document.getElementsByClassName("cross")[0];
+closeBtn.onclick = closeBurger;
 
 //Pets Carousel
 const nextBtn = document.getElementsByClassName("next");
@@ -53,5 +58,24 @@ prevBtn[0].onclick = function(){
             document.querySelector(".card").classList.remove("cardLeft");
             document.querySelector(".card").classList.add("cardRight");
         }
+    }
+}
+
+//Testimonials slider
+const inputRange = document.querySelector(".scroll");
+const testimonialSlides = document.querySelector(".users");
+const testimonialSlide = document.querySelector(".user");
+
+inputRange.addEventListener("input", rangeValue);
+
+function rangeValue(){
+    let rangeValue = Number(inputRange.value);
+    let slideWidth = testimonialSlide.getBoundingClientRect().width;
+    for (var i = 0; i < rangeValue; i++){
+        testimonialSlides.scrollTo({left: slideWidth, behavior: "smooth"});
+        slideWidth = slideWidth + 305;
+    }
+    if (i == 0){
+        testimonialSlides.scrollTo({left: 0, behavior: "smooth"});
     }
 }
